@@ -20,7 +20,7 @@ class MovieList extends StatelessWidget {
             // shrinkWrap: true,
             scrollDirection: Axis.horizontal,
             separatorBuilder: (context, index) => const SizedBox(
-              width: 20,
+              width: 10,
             ),
             itemCount: listImage.length,
             itemBuilder: (BuildContext context, int index) {
